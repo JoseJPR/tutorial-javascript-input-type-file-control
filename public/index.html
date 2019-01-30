@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tutorial JavaScript Input File Control</title>
+  <meta name="description" content="Control with JavaScript the type of files, the extension and the weight of the file type inputs before uploading them to your server.">
+  <meta name="author" content="José J. Pérez Rivas">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">Tutorial JavaScript Input File Control</h1>
+    <div class="card shadow-sm">
+      <div class="card-body">
+      <div class="form-group">
+        <label>File A</label>
+        <input type="file" id="file_A" onchange="getSize(this)" class="file form-control-sm" />
+        <span id="sizeA" class="details badge badge-primary"></span>
+      </div>
+      <div class="form-group">
+        <label>File B</label>
+        <input type="file" id="file_B" onchange="getSize(this)" class="file form-control-sm" />
+        <span id="sizeB" class="details badge badge-primary"></span>
+      </div>
+      <div class="form-group">
+        <label>File C</label>
+        <input type="file" id="file_C" onchange="getSize(this)" class="file form-control-sm" />
+        <span id="sizeC" class="details badge badge-primary"></span>
+      </div>
+      <div class="form-group">
+        <label>File D</label>
+        <input type="file" id="file_D" onchange="getSize(this)" class="file form-control-sm" />
+        <span id="sizeD" class="details badge badge-primary"></span>
+      </div>
+      <button onclick="upload()" class="btn btn-primary btn-sm">Upload</button>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

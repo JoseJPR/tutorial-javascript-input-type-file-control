@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-javascript-input-type-file-control",
+  "description": "📂 Control with JavaScript the type of files, the extension and the weight of the file type inputs before uploading them to your server.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoseJPR/tutorial-javascript-input-type-file-control"
+  },
+  "keywords": [
+    "JavaScript",
+    "Input",
+    "File"
+  ],
+  "author": "José J. Pérez Rivas",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
